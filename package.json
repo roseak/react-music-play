@@ -1,0 +1,51 @@
+{
+  "name": "react-music-play",
+  "version": "0.0.1",
+  "description": "Playing with React Music and Electrode",
+  "homepage": "https://github.com/roseak/react-music-play",
+  "author": {
+    "name": "roseak",
+    "email": "rose.kohn@gmail.com",
+    "url": "rosekohn.com"
+  },
+  "contributors": [],
+  "files": [
+    "server",
+    "client",
+    "test"
+  ],
+  "main": "server/index.js",
+  "keywords": [
+    "music",
+    "electrode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:roseak/react-music-play.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^4.x.x || ^6.x.x",
+    "npm": ">= 3.x.x"
+  },
+  "scripts": {
+    "start": "if test \"$NODE_ENV\" = \"production\"; then npm run prod; else gulp dev; fi",
+    "test": "gulp test",
+    "coverage": "gulp check",
+    "prod": "echo 'Starting standalone server in PROD mode'; node .",
+    "heroku-postbuild": "gulp build"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-archetype-react-app": "^1.0.0",
+    "electrode-confippet": "^1.0.0",
+    "electrode-router-resolver-engine": "^1.0.0",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "lodash": "^4.10.1"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  }
+}
