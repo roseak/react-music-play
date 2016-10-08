@@ -1,0 +1,11 @@
+[libs]
+
+[ignore]
+.*/public/.*
+.*/lib/.*
+.*/umd/.*
+.*/client/.*
+.*/node_modules/flow-bin/.*
+
+[include]
+src

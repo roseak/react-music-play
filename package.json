@@ -4,7 +4,7 @@
   "description": "Playing with React Music and Electrode",
   "homepage": "https://github.com/roseak/react-music-play",
   "author": {
-    "name": "roseak",
+    "name": "Rose Kohn",
     "email": "rose.kohn@gmail.com",
     "url": "rosekohn.com"
   },
@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "electrode-archetype-react-app-dev": "^1.0.0",
+    "flow-bin": "^0.33.0",
     "gulp": "^3.9.1"
   }
 }
